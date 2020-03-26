@@ -106,3 +106,48 @@ public class Quet04 {
 		
 	 }
 	}
+
+
+public class Quet05 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		int N1;
+		 
+		System.out.println("Digite o valor 1: ");
+		N1 = leitor.nextInt();
+		
+		if(N1%2==0) {
+		System.out.println("par");
+	}
+		else {
+			System.out.println("impar");
+		}
+		
+	 }
+	}
+	
+	
+public class Quet06 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		double N1,N2;
+	
+		System.out.println("Digite o valor 1: ");
+		N1 = leitor.nextDouble();
+		
+		System.out.println("Digite o valor 2: ");
+		N2 = leitor.nextDouble();
+		
+		if(N1<N2) {
+		System.out.println(N1+ "\n" +N2);
+	}
+		else {
+			System.out.println(N2+"\n"+N1);
+		}
+		
+	 }
+	}
