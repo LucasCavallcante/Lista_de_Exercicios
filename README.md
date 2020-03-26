@@ -26,6 +26,32 @@ public class LP {
 }
 
 
+public class Quet02 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		double Altura, Base;
+		double Area, Perimetro;
+		 
+		System.out.println("Digite a altura do retangulo: ");
+		Altura = leitor.nextDouble();
+		System.out.println("Digite a base do retangulo: ");
+		Base = leitor.nextDouble();
+		
+		Perimetro = (Altura + Base)*2;
+		
+		System.out.println("Perimetro do Retangulo é: "+ Perimetro);
+		
+		Area = Altura * Base;
+		
+		System.out.println("Área do retangulo é: "+ Area);
+		
+	}
+
+}
+
+
 public class Quet03 {
 
 	public static void main(String[] args) {
