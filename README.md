@@ -151,3 +151,37 @@ public class Quet06 {
 		
 	 }
 	}
+	
+	
+	public class Quet07 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		double x, a, b;
+		
+		System.out.println("Digite o valor a: ");
+		a = leitor.nextDouble();
+		
+		System.out.println("Digite o valor b: ");
+		b = leitor.nextDouble();
+		
+		System.out.println("Digite o valor x: ");
+		x = leitor.nextDouble();
+		
+		if(a>b) {
+		System.out.println("A tem que ser menor que B, digite A: ");
+		a = leitor.nextDouble();
+	}
+	
+		if((x>a)&&(x<b)) {
+			System.out.println(x+" esta no intervalo fechado de "+a+" e "+b);
+			}
+		
+		else {
+			System.out.println(x+" não esta no intervalo fechado de "+a+" e "+b);
+		}
+			
+		}
+		
+	 }
