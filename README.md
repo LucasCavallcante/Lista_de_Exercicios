@@ -169,12 +169,13 @@ public class Quet06 {
 		System.out.println("Digite o valor x: ");
 		x = leitor.nextDouble();
 		
-		if(a>b) {
+		do {
 		System.out.println("A tem que ser menor que B, digite A: ");
 		a = leitor.nextDouble();
-	}
+	}   
+		while(a>b);
 	
-		if((x>a)&&(x<b)) {
+		if(x>=a && x<=b) {
 			System.out.println(x+" esta no intervalo fechado de "+a+" e "+b);
 			}
 		
