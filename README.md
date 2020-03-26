@@ -24,3 +24,28 @@ public class LP {
 	}
 
 }
+
+
+public class Quet03 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		double N1, N2, N3, N4, media;
+		 
+		System.out.println("Digite o valor de Nota 1: ");
+		N1 = leitor.nextDouble();
+		System.out.println("Digite o valor de Nota 2: ");
+		N2 = leitor.nextDouble();
+		System.out.println("Digite o valor de Nota 3: ");
+		N3 = leitor.nextDouble();
+		System.out.println("Digite o valor de Nota 4: ");
+		N4 = leitor.nextDouble();
+		
+		media = (N1+N2+N3+N4)/4;
+	
+		System.out.println("Media das notas: "+ media);
+		
+	}
+
+}
