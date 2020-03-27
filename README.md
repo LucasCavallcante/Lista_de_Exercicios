@@ -186,3 +186,31 @@ public class Quet07 {
 		}
 		
 	 }
+	 
+	 
+public class Quet08 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A;
+		int B;
+		
+
+		System.out.printf("Digite o valor de A: ");
+		A = sc.nextInt();
+		System.out.printf("Digite o valor de B: ");
+		B = sc.nextInt();
+			
+		
+        if (A>B) {
+        	System.out.println("Maior valor "+A);
+        	System.out.println("Menor valor "+B);
+		}	
+        else {
+        	System.out.println("Maior valor "+B);
+        	System.out.println("Menor valor "+A);
+        }	
+		
+	}
+	}
+	
