@@ -131,7 +131,7 @@ public class Quet05 {
 	
 public class Quet06 {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
 		
 		double N1,N2;
@@ -142,15 +142,16 @@ public class Quet06 {
 		System.out.println("Digite o valor 2: ");
 		N2 = leitor.nextDouble();
 		
-		if(N1>N2) {
-		System.out.println(N1+ "\n" +N2);
+		if(N1<N2) {
+		System.out.println("\n"+N1+"\n" +N2);
 	}
 		else {
-			System.out.println(N2+"\n"+N1);
+			System.out.println("\n"+N2+"\n"+N1);
 		}
 		
-	 }
+	
 	}
+                }
 	
 	
 public class Quet07 {
