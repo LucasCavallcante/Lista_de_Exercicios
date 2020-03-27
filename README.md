@@ -142,7 +142,7 @@ public class Quet06 {
 		System.out.println("Digite o valor 2: ");
 		N2 = leitor.nextDouble();
 		
-		if(N1<N2) {
+		if(N1>N2) {
 		System.out.println(N1+ "\n" +N2);
 	}
 		else {
