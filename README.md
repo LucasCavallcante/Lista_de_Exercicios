@@ -26,7 +26,7 @@ public class LP {
 }
 
 
-public class Quet02 {
+public class Quest02 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -52,7 +52,7 @@ public class Quet02 {
 }
 
 
-public class Quet03 {
+public class Quest03 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -77,7 +77,7 @@ public class Quet03 {
 }
 
 
-public class Quet04 {
+public class Quest04 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -108,7 +108,7 @@ public class Quet04 {
 	}
 
 
-public class Quet05 {
+public class Quest05 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -129,7 +129,7 @@ public class Quet05 {
 	}
 	
 	
-public class Quet06 {
+public class Quest06 {
 
 		public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -154,7 +154,7 @@ public class Quet06 {
                 }
 	
 	
-public class Quet07 {
+public class Quest07 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -189,7 +189,7 @@ public class Quet07 {
 	 }
 	 
 	 
-public class Quet08 {
+public class Quest08 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -216,7 +216,7 @@ public class Quet08 {
 	}
 	
 	
-public class Quet09 {
+public class Quest09 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -236,37 +236,65 @@ public class Quet09 {
 		System.out.println(a+"\n"+b+"\n"+c);
 	
 	}else {
-			if(a<b & a<c & c<b ) {
-			System.out.println(a+"\n"+c+"\n"+b);
+		if(a<b & a<c & c<b ) {
+		System.out.println(a+"\n"+c+"\n"+b);
 	}else {
 			
 	        if(b<a & b<c & a<c) {
-				System.out.println(b+"\n"+a+"\n"+c);
+		System.out.println(b+"\n"+a+"\n"+c);
 	}else {
-		
-		    if(b<a & b<c & c<a) {
-		    	System.out.println(b+"\n"+c+"\n"+a);
-		    	
-   }else {
+	
+	    	if(b<a & b<c & c<a) {
+	   	System.out.println(b+"\n"+c+"\n"+a);
+         
+	}else {
 	   
-	   		if(c<b & c<a & b<a) {
-	   			System.out.println(c+"\n"+b+"\n"+a);
+	   	if(c<b & c<a & b<a) {
+	 	System.out.println(c+"\n"+b+"\n"+a);
 		   
+	}else {
+	      
+	      if(c<b & c<a & a<b) {
+	        System.out.println(c+"\n"+a+"\n"+b);
 		   
-   }else {
-	   		if(c<b & c<a & a<b) {
-		   System.out.println(c+"\n"+a+"\n"+b);
-		   
-	   }
-   }
-   }
-	 }
-		 
 	}
-			}
-		}
+   	}
+   	}
+	}	 
+	}
+	}
+	}
+	}
+	
+	public class Quest10 {
+	
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
 		
-	 }
+		int Idade;
+		
+		System.out.println("Digite sua idade: ");
+		Idade = leitor.nextInt();
+		
+		if (Idade<=17) {
+			System.out.println("Menor de idade");
+			
+		}else { 
+			
+			if(Idade<=64) {
+			System.out.println("Maior de idade");
+		
+		}else {
+		
+			if (Idade>=65) {
+			System.out.println("idoso");	
+			
+	}
+	}
+	}
+	}
+	}
+
 
 	
 	
