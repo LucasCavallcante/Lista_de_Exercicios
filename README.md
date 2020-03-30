@@ -215,3 +215,60 @@ public class Quet08 {
 	}
 	}
 	
+	
+public class Quet09 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		double a, b, c;
+		
+		System.out.println("Digite o valor 1: ");
+		a = leitor.nextDouble();
+		
+		System.out.println("Digite o valor 2: ");
+		b = leitor.nextDouble();
+		
+		System.out.println("Digite o valor 3: ");
+		c = leitor.nextDouble();
+		
+		if(a<b & a<c & b<c) {
+		System.out.println(a+"\n"+b+"\n"+c);
+	
+	}else {
+			if(a<b & a<c & c<b ) {
+			System.out.println(a+"\n"+c+"\n"+b);
+	}else {
+			
+	        if(b<a & b<c & a<c) {
+				System.out.println(b+"\n"+a+"\n"+c);
+	}else {
+		
+		    if(b<a & b<c & c<a) {
+		    	System.out.println(b+"\n"+c+"\n"+a);
+		    	
+   }else {
+	   
+	   		if(c<b & c<a & b<a) {
+	   			System.out.println(c+"\n"+b+"\n"+a);
+		   
+		   
+   }else {
+	   		if(c<b & c<a & a<b) {
+		   System.out.println(c+"\n"+a+"\n"+b);
+		   
+	   }
+   }
+   }
+	 }
+		 
+	}
+			}
+		}
+		
+	 }
+
+	
+	
+
+	
