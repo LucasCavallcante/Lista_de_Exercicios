@@ -266,7 +266,8 @@ public class Quest09 {
 	}
 	}
 	
-	public class Quest10 {
+
+public class Quest10 {
 	
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
