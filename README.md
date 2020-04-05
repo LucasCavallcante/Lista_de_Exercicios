@@ -153,11 +153,11 @@ public class Quest06 {
 	}
                 }
 	
-	
-public class Quest07 {
-
-	public static void main(String[] args) {
+public class Quest06 {	
+		
+		public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
+		
 		
 		double x, a, b;
 		
@@ -169,13 +169,12 @@ public class Quest07 {
 		
 		System.out.println("Digite o valor x: ");
 		x = leitor.nextDouble();
-		
-		do {
+		  
+		while(a>b){
 		System.out.println("A tem que ser menor que B, digite A: ");
 		a = leitor.nextDouble();
-	}   
-		while(a>b);
-	
+		}
+		
 		if(x>=a && x<=b) {
 			System.out.println(x+" esta no intervalo fechado de "+a+" e "+b);
 			}
@@ -185,8 +184,7 @@ public class Quest07 {
 		}
 			
 		}
-		
-	 }
+		}
 	 
 	 
 public class Quest08 {
