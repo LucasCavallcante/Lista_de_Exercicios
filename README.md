@@ -153,7 +153,7 @@ public class Quest06 {
 	}
                 }
 	
-public class Quest06 {	
+public class Quest07 {	
 		
 		public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -296,7 +296,7 @@ public class Quest10 {
 	}
 	
 		
-public class Quet11 {
+public class Quest11 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner (System.in);
@@ -341,3 +341,62 @@ public class Quet11 {
 				System.out.println("\nTotal a pagar: "+ formatador.format (TotalaPagar));
 			}
 			} }
+		
+		
+public class Quest12 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		 DecimalFormat formatador = new DecimalFormat("0.00");
+		 
+		double ValorUm, ValorDois; 
+		double Resultado;
+		
+		System.out.println("Digite o valor um: ");
+		ValorUm = leitor.nextDouble();
+		
+		System.out.println("Digite o valor dois: ");
+		ValorDois = leitor.nextDouble();
+				
+		while (ValorDois <= 0) {
+			
+		System.out.println("Valor dois não pode ser 0, Digite novamente");	
+		ValorDois = leitor.nextDouble();
+		
+		}
+	
+		Resultado = ValorUm / ValorDois;
+		
+		System.out.println("O resultado da divisão é: "+ formatador.format(Resultado));
+	
+	}}
+
+public class Quest13 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		 
+		 int i=0;
+		 
+		 for (i=1;i<=10;i++) {
+			System.out.println(i);
+		}
+		
+		
+	
+	}}
+	
+public class Quest14 {
+
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		 
+		 int i=0;
+		 
+		 for (i=10;i>0;i--) {
+			System.out.println(i);
+		}
+		
+		
+	
+	}}
