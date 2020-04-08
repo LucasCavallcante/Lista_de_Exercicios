@@ -294,9 +294,50 @@ public class Quest10 {
 	}
 	}
 	}
-
-
 	
-	
+		
+public class Quet11 {
 
-	
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		 DecimalFormat formatador = new DecimalFormat("0.00");
+		 
+		int QuantidadeAdquirida;
+		double PrecoUnitario, ValorTotal , TotalaPagar = 0;
+		double Desconto;
+		
+		
+			System.out.println("\nDigite a Quantidade: ");
+			QuantidadeAdquirida = leitor.nextInt();
+			
+			System.out.println("\nDigite o Preço da unidade: ");
+			PrecoUnitario = leitor.nextDouble();
+			
+			ValorTotal = QuantidadeAdquirida * PrecoUnitario; 
+		
+			if (QuantidadeAdquirida<=5) {
+				ValorTotal = ValorTotal;
+				Desconto = (ValorTotal*0.2)/100;
+				TotalaPagar = ValorTotal - Desconto;
+				System.out.println("\nDesconto: " + formatador.format (Desconto));
+				System.out.println("\nTotal: "+ formatador.format (ValorTotal));
+				System.out.println("\nTotal a pagar: "+ formatador.format (TotalaPagar));
+			
+			}else{if (QuantidadeAdquirida >5 && QuantidadeAdquirida <=10){
+				ValorTotal = ValorTotal;
+				Desconto = (ValorTotal*0.3)/100;
+				TotalaPagar = ValorTotal - Desconto;
+				System.out.println("\nDesconto: " + formatador.format (Desconto));
+				System.out.println("\nTotal: "+ formatador.format (ValorTotal));
+				System.out.println("\nTotal a pagar: "+ formatador.format (TotalaPagar));
+			}
+			}
+			if (QuantidadeAdquirida > 10 ) {
+				ValorTotal = ValorTotal;
+				Desconto = (ValorTotal*0.5)/100;
+				TotalaPagar = ValorTotal - Desconto;
+				System.out.println("\nDesconto: " + formatador.format (Desconto));
+				System.out.println("\nTotal: "+ formatador.format (ValorTotal));
+				System.out.println("\nTotal a pagar: "+ formatador.format (TotalaPagar));
+			}
+			} }
